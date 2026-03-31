@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Symbiosis Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Symbiosis Admission Form</h1>
+
+    <form id="admissionForm">
+
+        <label>Full Name</label>
+        <input type="text" id="name" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Phone Number</label>
+        <input type="text" id="phone" required>
+
+        <label>Course</label>
+        <select id="course">
+            <option value="">Select Course</option>
+            <option>BTech CSE</option>
+            <option>BBA</option>
+            <option>MBA</option>
+            <option>BCA</option>
+        </select>
+
+        <label>Address</label>
+        <textarea id="address"></textarea>
+
+        <button type="submit" id="submitBtn">Submit</button>
+
+    </form>
+
+    <p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

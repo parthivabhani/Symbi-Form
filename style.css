@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+.container{
+    width: 400px;
+    margin: 60px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 10px;
+}
+
+input, select, textarea{
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px;
+    background: maroon;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: darkred;
+}
+
+#message{
+    text-align: center;
+    margin-top: 15px;
+    color: green;
+}
